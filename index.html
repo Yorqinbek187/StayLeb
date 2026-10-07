@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StayLeb — authentic Lebanese chalets and mountain getaways.">
+    <title>StayLeb | Lebanese Chalet Escapes</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="css.css/css.css">
+</head>
+
+<body>
+    <!-- Main navigation -->
+    <header class="site-header">
+        <!-- Top verification banner -->
+        <div class="top-banner">LB Verified Lebanese Chalets <span>•</span> 24/7 Power Assurance &amp; Local Caretaker
+            Handover</div>
+        <div class="container header-content">
+            <a class="brand" href="#home" aria-label="StayLeb home">
+                <svg viewBox="0 0 200 200" width="40" height="40" aria-hidden="true">
+                    <path d="M100 30 L30 120 L50 120 L100 60 L150 120 L170 120 Z" fill="#0e3b4a" />
+                    <path d="M100 60 L60 120 L80 120 L100 90 L120 120 L140 120 Z" fill="#2bb3b3" />
+                    <path d="M100 90 L75 130 L85 130 L100 110 L115 130 L125 130 Z" fill="#2bb3b3" />
+                    <rect x="130" y="70" width="15" height="35" fill="#0e3b4a" />
+                    <path d="M30 150 Q60 130 100 150 Q140 170 170 150" stroke="#2bb3b3" stroke-width="8" fill="none"
+                        stroke-linecap="round" />
+                    <path d="M140 140 Q170 120 180 150 Q170 170 140 160" fill="#2bb3b3" />
+                </svg>
+                <span>StayLeb</span>
+            </a>
+            <nav class="main-nav" aria-label="Primary navigation">
+                <a class="active" href="#explore">Explore Stays</a>
+                <a href="#destinations">Destinations</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#about">About Lebanon Chalets</a>
+            </nav>
+            <div class="header-actions">
+                <button class="currency" type="button">USD ($)</button>
+                <button class="language" type="button" aria-label="Select language">EN <span>⌄</span></button>
+                <a class="login" href="#login">Log in</a>
+                <a class="sign-up" href="#signup">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="home">
+        <!-- Hero image and stay finder -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div data-aos="zoom-out-down" data-aos-duration="2000" class="hero-copy">
+                    <p class="eyebrow"><span></span> LEBANESE CHALET ESCAPES <b>•</b> From Mountain Peaks to the Coast
+                    </p>
+                    <h1 id="hero-title">Authentic Lebanese Chalets &amp; Mountain Getaways</h1>
+                    <p class="hero-text">Find your next escape, from snowy Faraya peaks to sunlit Batroun shores.</p>
+                </div>
+                <form data-aos="zoom-out-up" data-aos-duration="2000" class="search-panel" action="#" method="get">
+                    <h2>Find your stay</h2>
+                    <div class="search-row">
+                        <label class="search-field"><span class="field-label"><i>📍</i> Destination</span><input
+                                type="text" name="destination" placeholder="Where in Lebanon?"></label>
+                        <label class="search-field"><span class="field-label"><i>📅</i> Check-in</span><input
+                                type="text" name="checkin" placeholder="Add dates"></label>
+                        <label class="search-field"><span class="field-label"><i>📅</i> Check-out</span><input
+                                type="text" name="checkout" placeholder="Add dates"></label>
+                        <label class="search-field"><span class="field-label"><i>👥</i> Guests</span><input type="text"
+                                name="guests" placeholder="Add guests"></label>
+                        <button class="search-button" type="submit">Search stays <span>→</span></button>
+                    </div>
+                    <div class="amenities" aria-label="Popular amenities">
+                        <strong>AMENITIES:</strong>
+                        <button type="button">Beach Access</button><button type="button">Fireplace</button><button
+                            type="button">Garden</button><button type="button">Heating</button>
+                        <button type="button">Kitchen</button><button type="button">Parking</button><button
+                            type="button">Sea View</button><button type="button">Swimming Pool</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Explore stays -->
+        <section class="explore-stays" id="explore" aria-labelledby="explore-title">
+            <div class="container">
+                <div class="explore-heading">
+                    <div  data-aos="fade-right" data-aos-duration="500" class="explore-header">
+                        <span class="section-badge">EXPLORE STAYS</span>
+                        <h2 id="explore-title">Find Your Lebanese Getaway</h2>
+                    </div>
+                    <div class="region-filters" aria-label="Filter by region">
+                        <button type="button">Faraya</button>
+                        <button type="button">Batroun</button>
+                        <button class="selected" type="button">All regions</button>
+                    </div>
+                </div>
+
+                <div class="chalet-grid">
+                    <article data-aos="fade-right" data-aos-duration="1000" class="chalet-card">
+                        <div class="card-image">
+                            <!-- Bu yerga rasm nomini yozing: masalan jounieh.jpg -->
+                            <img src="./images/7.webp" alt="Jounieh Retreat 1-2">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-location"><span class="dot"></span> JOUNIEH</div>
+                            <h3 class="card-title">Jounieh Retreat 1-2</h3>
+                            <p class="card-type">Furnished house</p>
+                            <p class="card-features">8 guests · 4 bedrooms · 5 beds · 3 baths</p>
+                            <div class="card-amenities"><span>Air
+                                    Conditioning</span><span>Heating</span><span>Kitchen</span></div>
+                            <div class="card-price"><strong>$261.00</strong> <span>/ night</span>
+                                <p class="card-minimum">2 night minimum</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom" class="chalet-card">
+                        <div class="card-image">
+                            <!-- Bu yerga rasm nomini yozing: masalan deir-el-qamar.jpg -->
+                            <img src="./images/2.webp" alt="Deir el Qamar Retreat 1-3">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-location"><span class="dot"></span> DEIR EL QAMAR</div>
+                            <h3 class="card-title">Deir el Qamar Retreat 1-3</h3>
+                            <p class="card-type">Furnished house</p>
+                            <p class="card-features">8 guests · 4 bedrooms · 5 beds · 3 baths</p>
+                            <div class="card-amenities"><span>Beach Access</span><span>Swimming Pool</span><span>Sea
+                                    View</span></div>
+                            <div class="card-price"><strong>$270.00</strong> <span>/ night</span>
+                                <p class="card-minimum">2 night minimum</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom" class="chalet-card">
+                        <div class="card-image">
+                            <!-- Bu yerga rasm nomini yozing: masalan beirut.jpg -->
+                            <img src="./images/3.webp" alt="Beirut Retreat 1-4">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-location"><span class="dot"></span> BEIRUT</div>
+                            <h3 class="card-title">Beirut Retreat 1-4</h3>
+                            <p class="card-type">Furnished house</p>
+                            <p class="card-features">6 guests · 3 bedrooms · 4 beds · 2 baths</p>
+                            <div class="card-amenities"><span>Kitchen</span><span>Air Conditioning</span><span>Sea
+                                    View</span></div>
+                            <div class="card-price"><strong>$279.00</strong> <span>/ night</span>
+                                <p class="card-minimum">2 night minimum</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article data-aos="fade-left" data-aos-duration="1000" class="chalet-card">
+                        <div class="card-image">
+                            <!-- Bu yerga rasm nomini yozing: masalan batroun.jpg -->
+                            <img src="./images/4.webp" alt="Batroun Retreat 2-1">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-location"><span class="dot"></span> BATROUN</div>
+                            <h3 class="card-title">Batroun Retreat 2-1</h3>
+                            <p class="card-type">Furnished house</p>
+                            <p class="card-features">2 guests · 1 bedrooms · 2 beds · 1 baths</p>
+                            <div class="card-amenities"><span>Kitchen</span><span>Beach
+                                    Access</span><span>Parking</span></div>
+                            <div class="card-price"><strong>$125.00</strong> <span>/ night</span>
+                                <p class="card-minimum">2 night minimum</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article data-aos="fade-right" data-aos-duration="1000" class="chalet-card">
+                        <div class="card-image">
+                            <!-- Bu yerga rasm nomini yozing: masalan bcharre.jpg -->
+                            <img src="./images/5.webp" alt="Bcharre Retreat 2-2">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-location"><span class="dot"></span> BCHARRE</div>
+                            <h3 class="card-title">Bcharre Retreat 2-2</h3>
+                            <p class="card-type">Furnished house</p>
+                            <p class="card-features">2 guests · 1 bedrooms · 2 beds · 1 baths</p>
+                            <div class="card-amenities"><span>Kitchen</span><span>Swimming
+                                    Pool</span><span>Fireplace</span></div>
+                            <div class="card-price"><strong>$274.00</strong> <span>/ night</span>
+                                <p class="card-minimum">2 night minimum</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom" class="chalet-card">
+                        <div class="card-image">
+                            <!-- Bu yerga rasm nomini yozing: masalan byblos.jpg -->
+                            <img src="./images/6.webp" alt="Byblos Retreat 2-3">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-location"><span class="dot"></span> BYBLOS</div>
+                            <h3 class="card-title">Byblos Retreat 2-3</h3>
+                            <p class="card-type">Chalet</p>
+                            <p class="card-features">2 guests · 1 bedrooms · 2 beds · 1 baths</p>
+                            <div class="card-amenities"><span>Sea View</span><span>Air
+                                    Conditioning</span><span>Kitchen</span></div>
+                            <div class="card-price"><strong>$309.00</strong> <span>/ night</span>
+                                <p class="card-minimum">2 night minimum</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom" class="chalet-card">
+                        <div class="card-image">
+                            <!-- Bu yerga rasm nomini yozing: masalan jounieh-2.jpg -->
+                            <img src="./images/1.webp" alt="Jounieh Retreat 2-4">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-location"><span class="dot"></span> JOUNIEH</div>
+                            <h3 class="card-title">Jounieh Retreat 2-4</h3>
+                            <p class="card-type">Furnished house</p>
+                            <p class="card-features">2 guests · 1 bedrooms · 2 beds · 1 baths</p>
+                            <div class="card-amenities"><span>Wi-Fi</span><span>Sea View</span><span>Kitchen</span>
+                            </div>
+                            <div class="card-price"><strong>$264.00</strong> <span>/ night</span>
+                                <p class="card-minimum">2 night minimum</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article data-aos="fade-left" data-aos-duration="1000" class="chalet-card">
+                        <div class="card-image">
+                            <!-- Bu yerga rasm nomini yozing: masalan faraya.jpg -->
+                            <img src="./images/8.webp" alt="Faraya Retreat 1-1">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-location"><span class="dot"></span> FARAYA</div>
+                            <h3 class="card-title">Faraya Retreat 1-1</h3>
+                            <p class="card-type">Furnished house</p>
+                            <p class="card-features">6 guests · 3 bedrooms · 4 beds · 2 baths</p>
+                            <div class="card-amenities"><span>Sea View</span><span>Fireplace</span><span>Swimming
+                                    Pool</span></div>
+                            <div class="card-price"><strong>$154.00</strong> <span>/ night</span>
+                                <p class="card-minimum">2 night minimum</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div data-aos="flip-left" class="explore-action"><a href="#all-stays">Explore all stays
+                        <span>→</span></a></div>
+            </div>
+        </section>
+
+        <!-- Explore Lebanese Regions -->
+        <section class="regions-section" id="destinations" aria-labelledby="regions-title">
+            <div class="container">
+                <header data-aos="fade-right" class="regions-header">
+                    <span class="section-badge">DESTINATIONS</span>
+                    <h2 id="regions-title">Explore Lebanese Regions</h2>
+                    <p>From the Mediterranean coastline to mountain villages.</p>
+                </header>
+
+                <div class="regions-grid">
+                    <article data-aos="fade-up" data-aos-duration="2000" class="region-card">
+                        <!-- Bu yerga rasm nomini yozing -->
+                        <img src="images/02.jpg" alt="Batroun coast and souks">
+                        <div class="overlay"></div>
+                        <div class="card-content">
+                            <div class="region-category">🌊 <span>Coast &amp; Souks</span></div>
+                            <h3 class="region-title">Batroun</h3>
+                            <p class="region-desc">Old souks and Mediterranean coastal walks.</p>
+                            <a class="region-link" href="#batroun">Explore stays <span>→</span></a>
+                        </div>
+                    </article>
+
+                    <article data-aos="fade-up" data-aos-duration="1500" class="region-card">
+                        <!-- Bu yerga rasm nomini yozing -->
+                        <img src="images/01.jpg" alt="Faraya and Mzaar mountains">
+                        <div class="overlay"></div>
+                        <div class="card-content">
+                            <div class="region-category">🏔️ <span>Slopes &amp; Peaks</span></div>
+                            <h3 class="region-title">Faraya &amp; Mzaar</h3>
+                            <p class="region-desc">Mountain scenery and snowy winter escapes.</p>
+                            <a class="region-link" href="#faraya">Explore stays <span>→</span></a>
+                        </div>
+                    </article>
+
+                    <article data-aos="fade-up" data-aos-duration="1000" class="region-card">
+                        <!-- Bu yerga rasm nomini yozing -->
+                        <img src="images/03.jpg" alt="Jbeil Byblos historic port">
+                        <div class="overlay"></div>
+                        <div class="card-content">
+                            <div class="region-category">⚓ <span>Historic Port</span></div>
+                            <h3 class="region-title">Jbeil / Byblos</h3>
+                            <p class="region-desc">Explore the old port and historic streets.</p>
+                            <a class="region-link" href="#byblos">Explore stays <span>→</span></a>
+                        </div>
+                    </article>
+
+                    <article data-aos="fade-up" data-aos-duration="500" class="region-card">
+                        <!-- Bu yerga rasm nomini yozing -->
+                        <img src="images/04.jpg" alt="Chouf and Barouk cedar country">
+                        <div class="overlay"></div>
+                        <div class="card-content">
+                            <div class="region-category">🌲 <span>Cedar Country</span></div>
+                            <h3 class="region-title">Chouf &amp; Barouk</h3>
+                            <p class="region-desc">Cedar forest walks and mountain villages.</p>
+                            <a class="region-link" href="#chouf">Explore stays <span>→</span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="3000" class="container">
+            <div class="footer-cta">
+                <div class="cta-left">
+                    <span class="cta-badge">Plan Your Stay with StayLeb</span>
+                    <h2>Coastal weekends. Mountain mornings.</h2>
+                    <p>Choose a destination, compare properties and find the stay that suits your plans. Review the
+                        amenities, house rules and seasonal prices before booking.</p>
+                </div>
+                <div class="cta-right">
+                    <h3>Your next getaway starts here</h3>
+                    <p>Search with your dates and guest count to explore stays for your trip.</p>
+                    <button type="button">Explore stays</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="brand-logo">
+                        <svg viewBox="0 0 200 200" width="36" height="36" aria-hidden="true">
+                            <path d="M100 30 L30 120 L50 120 L100 60 L150 120 L170 120 Z" fill="#0e3b4a" />
+                            <path d="M100 60 L60 120 L80 120 L100 90 L120 120 L140 120 Z" fill="#2bb3b3" />
+                            <path d="M100 90 L75 130 L85 130 L100 110 L115 130 L125 130 Z" fill="#2bb3b3" />
+                            <rect x="130" y="70" width="15" height="35" fill="#0e3b4a" />
+                            <path d="M30 150 Q60 130 100 150 Q140 170 170 150" stroke="#2bb3b3" stroke-width="8"
+                                fill="none" stroke-linecap="round" />
+                            <path d="M140 140 Q170 120 180 150 Q170 170 140 160" fill="#2bb3b3" />
+                        </svg>
+                        <span>StayLeb</span>
+                    </div>
+                    <p>Handpicked private chalets, seaside stone residences, and alpine lodges across Mount Lebanon and
+                        the Mediterranean coastline. Guaranteed electricity and verified hosts.</p>
+                    <div class="brand-badges"><span>✓ Verified Properties</span><span>⚡ Generator Backed</span></div>
+                </div>
+                <div class="footer-col">
+                    <h4>Regional Discovery</h4>
+                    <a href="#batroun">Batroun Coastal Villas</a><a href="#faraya">Faraya Ski Chalets</a><a
+                        href="#byblos">Jbeil Historic Lodges</a><a href="#chouf">Chouf Cedar Retreats</a><a
+                        href="#bcharreh">Bcharreh Pine Cabins</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Guest Support</h4>
+                    <a href="#booking-protection">Booking Protection</a><a href="#handover">Caretaker Handover</a><a
+                        href="#cancellation">Cancellation Policies</a><a href="#power">24/7 Power Assurance</a><a
+                        href="#concierge">Concierge &amp; Transfers</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Hosts &amp; Legal</h4>
+                    <a href="#list-property">List Your Chalet</a><a href="#host-code">Host Code of Ethics</a><a
+                        href="#terms">Terms of Service</a><a href="#privacy">Privacy Policy</a><a
+                        href="#compliance">Decree 4123 Compliance</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>© 2025 StayLeb Hospitality Technologies SAL. Regulated under Lebanese Ministry of Tourism Decree 4123
+                    for Furnished Residences.</p>
+                <p>Beirut, Lebanon • All Prices Displayed in Fresh USD</p>
+            </div>
+        </div>
+
+        <div class="legacy-footer-bottom" hidden>
+            <p>© 2026 StayLeb. All rights reserved.</p>
+            <div>
+                <a href="#privacy">Privacy</a>
+                <a href="#terms">Terms</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('.site-header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+    <script src="./js.js/js.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
